@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/f2b99a2bb1.js" crossorigin="anonymous"></script>
+  
+<body>
+<div class="wrapper">
+ <header>
+    <nav class="navbar">
+      <div class="brand">
+        <h2>C<span>T</span></h2>
+      </div>  
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Portafolio</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+ </header>
+ <main class="main">
+    <div class="info-content">
+        <h1>Im <span>Josue</span>Lopez</h1>
+        <p>Me presento mi nombre es Estip josue Lopez Farfan soy un estudiante de la universidad Domingo sabio, tengo 19 años y esta es mi primera pagina</p>
+        <a download href="#">
+           <button class="download-cv">Download CV</button>
+        </a>
+     </div>
+     <img width=" 200px" src="imagen/fotoyo.png" alt="">
+
+</main>
+
+  </div>
+     <div class="about">
+        <img width=" 200px" src="img/Imagen de WhatsApp 2023-08-17 a las 09.49.49.jpg" alt="Josue Retrato">
+
+        <div class="about-info">
+          <h2>Sobre mi</h2>
+          <div class="divider"></div>
+          <p>Soy un estudiante de Ingenieria en sistemas, soy en la ciudad de Tarija comunidad Sella Mendez</p>
+          <p>Mis cualidades son el poder desarrollar programas, actualmente estoy especialisandome en diseños web.</p>
+          <p>Mis metas a realizar en esta materia son las de aprender mas sobre diseño web para asi llegar a ser un mejopr ING en sistemas</p>
+          <button class="download-cv">read more</button>  
+        </div>
+     </div>
+ 
+     <div class="portafolio">
+        <div class="portafolio-Josue">
+            <h2>Mi portafolio</h2>
+            <div class="divider"></div>
+        </div>
+
+        <div class="contenedor">
+            <div class="card">
+                <div class="card_img">
+                </div>
+                <div class="card_title">
+                 <h2>Descripción de proyecto</h2>
+                
+
+                </div>
+                <div class="card_projects-links">
+                    <a href="https://github.com/carlostorrez123/proyecto-tutorial" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-solid fa-globe"></i>
+                    </a>
+                    
+                </div>
+                <div class="proyect-details-content">
+                    <button class="project-details download-cv">
+                        <a href="">
+                            Detalles de proyecto 
+                        </a>                   
+                    </button>
+
+                </div>
+                
+            </div>
+        </div>
+     </div>
+ 
+     <div class="contact-selection">
+        <div class="contact-headings">
+           <h2>Mantente en contacto</h2>
+           <div class="divider">
+        </div>
+        <div class="container-contact">
+         <img src="./imagen/hollow.png" alt="">
+            <div class="contact-form">
+              <h4>Enviame un mensaje..</h4>
+                <form class="form">
+                  <input type="text" placeholder="Name">
+                 <input type="email" placeholder="Email">
+                 <textarea placeholder="Place your message">
+                 </textarea>
+                 <button class="btn-submit">Enviar mensaje</button>                 
+                </form>
+           </div>
+        </div>     
+    </div>
+ <footer class="footer">
+    <div class="footer-content">
+        <h2>Josue Lopez</h2>
+        <h5>Programas y Diseños</h5>
+    </div>
+    <div class="sotial-network">
+        <a href="https://wa.me/qr/GP6WLL6PRGQFD1">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a herf="https://www.instagram.com/josuelopez6777/">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/josuelopez">
+
+         <i class="fa-brands fa-facebook"></i>
+        </a>
+        
+    </div>
+ </footer>       
+
+</body>
+</html>
