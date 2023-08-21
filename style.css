@@ -1,0 +1,145 @@
+h2{
+   color:aqua; 
+}
+p{
+    color:#FA287F;
+}
+li{
+    color:rgb(59,9,30);
+}
+ul{
+    color:rgba(224, 36, 114, 1);
+}
+.color-negro{
+    color:burlywood;
+}
+#subtitulo{
+    color:darkblue;
+}
+.card{
+    width: 400px;
+    height: 400px;
+    margin:10px;
+    border:1px solid blue;
+    color:aliceblue;
+    list-style: none;
+
+
+
+}
+.card__image{
+width: 80%;
+padding: 15px;
+border-radius: 10%;
+}
+.card__texto{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.card{
+    &__image{
+        color:aliceblue;
+    }
+}
+.faq{
+
+}
+.faq__pregunta{
+
+}
+.faq__respuesta{
+
+}
+.faq{
+
+}
+.faq__pregunta{
+
+}
+
+.menu p #cabecera{
+
+}
+
+.menu{
+
+}
+.image{
+background-color: aliceblue;
+}
+.texto{
+
+}
+
+.menu .image{
+background-color: aquamarine;
+}
+
+.menu__image{
+    background-color: aquamarine; 
+}
+.fondo__image{
+    background-color: aliceblue; 
+}
+.busqueda{
+
+}
+.busqueda__entrada{
+
+}
+.busqueda__entrada__icon{
+
+}
+.boton-div{
+    width:200px;
+    height: 200px;
+    padding:15px;
+    border:5px solid grey;
+    margin:10px;
+}
+.boton-div__enviar{
+    font-size: 14px;
+    color: blue;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    background-image: url("./img/fondo.jpg");
+    background-repeat: no-repeat;
+    background:linear-gradient(90deg,blue,red);
+    background-size: 90%;
+    background-clip:border-box;
+}
+
+.card__boton {
+    border: 0.8em darkviolet;
+    border-style: dotted double;
+    margin: 1em 0;
+    padding: 1.4em;
+    background: linear-gradient(60deg, red, yellow, red, yellow, red);
+    font: 900 1.2em sans-serif;
+    text-decoration: underline;
+  }
+  
+  .border-box {
+    background-clip: border-box;
+  }
+  .padding-box {
+    background-clip: padding-box;
+  }
+  .content-box {
+    background-clip: content-box;
+  }
+  
+  .text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(0, 0, 0, 0.2);
+  }
+
+
